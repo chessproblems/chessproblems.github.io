@@ -17,8 +17,8 @@ import configuration from '../../app/config.js';
 import { resetGame, postPGNReadSetup } from '../../app/chess-pgn-trainer.js';
 
 // Global variables
-let userID= 'orcan57';
-let lichessToken= 'lip_lbFd2kDyYA9H7kF3f69I';
+let userID;
+let lichessToken;
 
 /**
  * Check to see if the Lichess user ID exists
