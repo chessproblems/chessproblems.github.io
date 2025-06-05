@@ -19,7 +19,7 @@ const configuration = {
 		circlesarrows: true,
 		playAudio: false,
 		playSpeech: false,
-		lichess_userID:'orcan57'
+		lichess_userID:'orcan57',
 	},
 
 	// Feature flags for components
