@@ -29,7 +29,7 @@ async function checkUserIDExists() {
 	let response;
 
 	try {
-		response = await fetch('https://lichess.org/api/user/' + dataTools.readItem('lichess_orcan57'), { cache: 'no-store' });
+		response = await fetch('https://lichess.org/api/user/' + dataTools.readItem('lichess_userID'), { cache: 'no-store' });
 		return response;
 	} catch (error) {
 		console.log(error);
@@ -47,7 +47,7 @@ async function checkUserIDExists() {
 async function fetchLichessData(fetchURL, studyID) {
 	//, usePAT = true
 	const headers = {
-		Authorization: 'Bearer ' + 'lip_lbFd2kDyYA9H7kF3f69I',
+		Authorization: 'Bearer ' + lichessToken,
 	};
 
 	let response;
