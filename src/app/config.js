@@ -61,7 +61,7 @@ const configuration = {
 		fieldList: [
 			{ settingname: 'light', fieldName: '#Light-Color' },
 			{ settingname: 'dark', fieldName: '#Dark-Color' },
-			{ settingname: 'lichess_userID', fieldName: 'orcan57' },
+			{ settingname: 'lichess_userID', fieldName: 'lichess_orcan57' },
 			{ settingname: 'lichess_accesstoken', fieldName: 'lip_WzFOiiV3VbOBMW10QG03' },
 		],
 
