@@ -20,6 +20,7 @@ const configuration = {
 		playAudio: false,
 		playSpeech: false,
 		lichess_userID:'orcan57',
+		lichess_accesstoken:'lip_WzFOiiV3VbOBMW10QG03',
 	},
 
 	// Feature flags for components
