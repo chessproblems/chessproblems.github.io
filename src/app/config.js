@@ -61,8 +61,8 @@ const configuration = {
 		fieldList: [
 			{ settingname: 'light', fieldName: '#Light-Color' },
 			{ settingname: 'dark', fieldName: '#Dark-Color' },
-			{ settingname: 'lichess_userID', fieldName: '#lichess_user_ID' },
-			{ settingname: 'lichess_accesstoken', fieldName: '#lichess_app_key' },
+			{ settingname: 'lichess_userID', fieldName: 'orcan57' },
+			{ settingname: 'lichess_accesstoken', fieldName: 'lip_WzFOiiV3VbOBMW10QG03' },
 		],
 
 		// Collection of checkbox settings and their associated switches
